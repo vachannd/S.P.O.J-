@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<strings.h>
+
+int main()
+{
+  int n;
+  while(scanf("%d",&n)!='\0')
+  {
+      if(n==42)
+          break;
+      else printf("%d\n",n);
+  }//end of while
+  return(0);
+}//end of main
